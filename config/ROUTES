@@ -1,0 +1,43 @@
+#index:
+#    path: /index
+#    controller: App\Controller\DefaultController::index
+
+
+Home:
+    path: /home
+    controller: App\Controller\HomeController::Home
+
+
+Portfolio:
+    path: /portfolio
+    controller: App\Controller\PortfolioController::Portfolio
+
+
+Video:
+    path: /video
+    controller: App\Controller\VideoController::Video
+
+
+BuyCars:
+    path: /buycars
+    controller: App\Controller\BuyCarsController::BuyCars
+
+
+Checkout:
+    path: /checkout
+    controller: App\Controller\CheckoutController::Checkout
+
+
+Contact:
+    path: /contact
+    controller: App\Controller\ContactController::Contact
+
+
+Signup:
+    path: /signup
+    controller: App\Controller\UserController::User
+
+
+Login:
+    path: /login
+    controller: App\Controller\UserController::User
