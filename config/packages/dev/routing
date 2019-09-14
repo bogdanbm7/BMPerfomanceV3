@@ -1,1 +1,4 @@
 
+framework:
+    router:
+        strict_requirements: true
