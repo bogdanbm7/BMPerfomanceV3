@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+
+<html lang="en"> 
+     
+     
+ <head>
+
+  <!-- Basic Info
+================================================== -->
+<title>BM Perfomance | Login</title>
+<meta charset="utf-8">
+
+
+
+<!-- Mobile
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<!-- Google Fonts
+================================================== -->
+<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+
+
+
+<!-- CSS Files
+================================================== -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen">
+
+
+
+<!-- X-Icon / Icon / Favicon / Manifest / Ms-Icon
+================================================== -->
+<link href='img/favicon.ico' rel='icon' type='image/x-icon'/>
+
+<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+
+<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+
+<link rel="manifest" href="/manifest.json">
+
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+
+
+<!-- Javascript Files
+================================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="js/jquery.tools.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/slides/slides.min.jquery.js"></script>
+<script src="js/cycle-slider/cycle.js"></script>
+<script src="js/nivo-slider/jquery.nivo.slider.js"></script>
+<script src="js/tabify/jquery.tabify.js"></script>
+<script src="js/prettyPhoto/jquery.prettyPhoto.js"></script>
+<script src="js/twitter/jquery.tweet.js"></script>
+<script src="js/scrolltop/scrolltopcontrol.js"></script>
+<script src="js/portfolio/filterable.js"></script>
+<script src="js/modernizr/modernizr-2.0.3.js"></script>
+<script src="js/easing/jquery.easing.1.3.js"></script>
+<script src="js/kwicks/jquery.kwicks-1.5.1.pack.js"></script>
+<script src="js/swfobject/swfobject.js"></script>
+
+
+<!-- Javascript functions
+================================================== -->
+<script>
+$(function () {
+    $("#prod_nav ul").tabs("#panes > div", {
+        effect: 'fade',
+        fadeOutSpeed: 400
+    });
+});
+</script>
+
+<script>
+$(document).ready(function () {
+    $(".pane-list li").click(function () {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
+});
+</script>
+
+
+
+<!-- FancyBox
+================================================== -->
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" media="all">
+<script src="js/fancybox/jquery.fancybox-1.2.1.js"></script>
+
+</head>
+
+
+
+
+
+<body>
+  <!-- MENU
+  ================================================== -->
+
+  <ol id="menu">
+    <li><a href="home.html">Home</a>
+    </li>
+
+    <li><a href="">Media</a>
+      <!-- sub menu -->
+      <ol>
+        <li><a href="portfolio.html">Photos</a></li>
+        <li><a href="video.html">Video</a></li>
+      </ol>
+    </li>
+    <!-- end sub menu -->
+
+    <li><a href="">Cars</a>
+      <!-- sub menu -->
+      <ol>
+        <li><a href="buycars.html">Buy Cars</a></li>
+      </ol>
+    </li>
+    <!-- end sub menu -->
+
+    <li><a href="contact.html">Contact</a></li>
+
+    <li><a href="">User</a>
+      <!-- sub menu -->
+      <ol>
+        <li><a href="signup.html">Signup</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ol>
+    </li>
+    <!-- end sub menu -->
+  </ol>
+  <!-- END MENU -->
+
+
+  
+<!-- Logo + Slider
+================================================== -->
+<div id="container">
+  <div id="site_title"><a href="home.html"><img title="" src="img/logo.png" alt=""></a></div>
+  <div id="slider3" class="nivoSlider"> <img title="" src="img/demo/slide_1.jpg" alt="" width="960" height="450"> <img title="" src="img/demo/slide_5.jpg" alt="" width="960" height="450"> <img title="" src="img/demo/slide_8.jpg" alt="" width="960" height="450"> <img title="" src="img/demo/slide_13.jpg" alt="" width="960" height="450"> <img title="" src="img/demo/slide_17.jpg" alt="" width="960" height="450"> <img title="" src="img/demo/slide_18.jpg" alt="" width="960" height="450"> </div>
+
+
+  
+  
+
+<!-- Login form
+===================== -->
+    <div class="heading_bg">
+
+      <div class="login">
+
+        <p class="text">Log In !</p>
+        <div class="login">
+             
+        <form method="post" action="/login">
+
+        <span class="fontawesome-envelope-alt"></span><input type="text" id="email" required placeholder="Email" autocomplete="on">
+
+        <span class="fontawesome-lock"></span><input type="password" name="password" id="password" required placeholder="Password" autocomplete="on">
+
+     <input type="submit" value="LOG IN !" title="LOG IN !">
+
+        </div>
+
+      </div>
+    </div>
+
+      <div style="clear:both; height: 40px"></div>
+  </div>
+    <!-- close Login container -->
+
+
+    
+    
+
+<!-- Footer
+================================================== -->
+<div id="footer">
+
+<br>
+
+  <!-- First Column -->
+<div class="one-fourth">
+     
+     <h3> <strong> Links </strong> </h3>
+  <ul class="footer_links">
+       <li><a href="home.html"> <b> Home </b> </a></li>
+       <li><a href="portfolio.html"> <b> Photos </b> </a></li>
+       <li><a href="video.html"> <b>  Video </b> </a></li>
+       <li><a href="buycars.html"> <b> Buy Cars </b> </a></li>
+  </ul>
+     
+<br>
+
+</div>
+
+  <!-- Second Column -->
+<div class="one-fourth">
+     
+     <h3> <strong> User </strong> </h3> 
+  <ul class="footer_links">
+       <li><a href="contact.html"> <b> Contact </b> </a></li>
+       <li><a href="signup.html"> <b> Signup </b> </a></li>
+       <li><a href="login.html"> <b> Login </b> </a></li>
+  </ul>
+     
+<br>
+
+</div>
+
+  <!-- Third Column -->
+<div class="one-fourth-last">
+     
+      <h3> <strong> Information </strong> </h3> 
+<p> 
+      <b>  
+           When I was a kid I had a passion for cars. <br>
+           That's why I decided to make a website about performance cars....  
+
+ <br>
+
+ <br>     Theme made by: <a href="contact.html"> Bogdan Marian </a> 
+      </b>
+     
+</p>
+</div>
+
+<div style="clear:both"></div>
+
+</div>     <!-- END Footer
+================================================== -->
+
+</body>
+
+</html>
