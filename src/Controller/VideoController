@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\Response;
+
+
+class VideoController extends AbstractController {
+    /**
+     * @Route("/video", methods={"GET"}, name="video")
+     * @return Response
+     */
+    
+    public function Video()
+    {
+        return $this->render(
+                'video.html.twig'
+                );
+    }
+}
