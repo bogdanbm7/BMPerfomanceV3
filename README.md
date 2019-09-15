@@ -370,65 +370,8 @@ OR THIS COMMAND : php bin/console make:
 --------------------------------------------------------------
 
 
-LINKS : 
-
-
-
-https://getcomposer.org/
-
-https://getcomposer.org/download/
-
-https://symfony.com/doc/current/setup.html#installing-packages
-
-https://symfony.com/doc/current/bundles/SymfonyMakerBundle/index.html
-
-https://symfony.com/doc/current/doctrine.html
-
-https://symfony.com/doc/current/bundles/DoctrineBundle/installation.html
-
-https://symfony.com/doc/current/doctrine/registration_form.html?fbclid=IwAR1uBOeVxsWa4x19jiCYMMZA9eKrBpjuHgBA1vJFtJv8x6Xks70Nl_WwINQ#before-you-get-started
-
-https://symfony.com/download
-
-https://twig.symfony.com/doc/2.x/intro.html?fbclid=IwAR1oMfeafbfl8j-OrAxLbwwlwewUP-hk33Q4i9aXxcc9QtRA91wSQpgNAi0
-
-https://symfony.com/doc/current/bundles/SensioGeneratorBundle/commands/generate_controller.html
-
-https://thecodingmachine.io/building-a-single-page-application-with-symfony-4-and-vuejs
-
-https://symfony.com/doc/current/reference/configuration/doctrine.html
-
-https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/configuration.html
-
-https://symfony.com/doc/current/templating.html
-
-https://symfony.com/doc/current/controller.html
-
-https://symfony.com/doc/current/bundles/SymfonyMakerBundle/index.html
-
-https://symfony.com/doc/current/console.html
-
-https://symfony.com/doc/2.6/cookbook/console/console_command.html
-
-https://symfony.com/doc/current/best_practices/controllers.html
-
-https://ourcodeworld.com/articles/read/847/top-7-best-open-source-php-template-engines
-
-https://github.com/BogdanMarianC/console
-
-https://symfony.com/doc/current/components/console.html
-
-https://vfac.fr/blog/how-to-install-easyadmin-with-fosuserbundle-in-symfony-4
-
-https://vfac.fr/blog/how-to-use-doctrine-mongo-db-with-symfony-4
-
-
-
---------------------------------------------------------------
-
-
-
 LINKS :
+
 
 https://getcomposer.org/
 
@@ -533,20 +476,3 @@ https://symfony.com/doc/current/doctrine/registration_form.html?fbclid=IwAR2GPVJ
 
 https://twig.symfony.com/doc/2.x/intro.html?fbclid=IwAR3FpYjku9wpOT5Si56DD47WQeC4rP7hBzdkWAKY5oTPQnpKZK9bnL9DppY
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
