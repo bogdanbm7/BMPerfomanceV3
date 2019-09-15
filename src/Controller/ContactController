@@ -1,0 +1,40 @@
+<?php
+
+namespace App\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use App\Controller\Contact;
+use App\Entity\Contact;
+
+
+class ContactController extends AbstractController {
+    /**
+     * @Route("/contact")
+     * @return Response
+     */
+    public function Contact(Request $post)
+    {
+        
+        $name = $post->request->get('name');
+        $tel = $post->request->get('tel');
+        $email = $post->request->get('email');
+        $message = $post->request->get('message');
+      
+        
+        $repo = $this->getDoctrine()->getRepository(Contact::class);
+        
+        $contact = new Contact($name, $tel, $email, $message);
+        
+        $manager = $this->getDoctrine()->getManager();
+        
+        $manager->persist($contact);
+        $manager->flush();
+                
+        return $this->render(
+                'contact.html.twig'
+                );
+    }
+}
