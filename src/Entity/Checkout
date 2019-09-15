@@ -1,0 +1,86 @@
+<?php
+
+namespace App\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+
+     /**
+      * @ORM\Entity(repositoryClass="App\Repository\CheckoutRepository")
+      */
+
+     class Checkout
+     {
+     /**
+     * @var int 
+     * @ORM\Id
+     * @ORM\GeneratedValue
+     * @ORM\Column(type="integer")
+     */
+          
+          
+    private $id;
+    /**
+     * @var string
+     * @ORM\Column(type="string", length=64) 
+     */
+    
+    
+    private $car;  
+    /**
+     * @var string
+     * @ORM\Column(type="string", length=64) 
+     */
+    
+    
+    private $firstName;
+    /**
+     * @var string
+     * @ORM\Column(type="string", length=64) 
+     */
+    
+    
+    private $lastName;    
+    /**
+     * @var string
+     * @ORM\Column(type="string", length=64) 
+     */
+    
+    
+    private $country;  
+    /**
+     * @var string
+     * @ORM\Column(type="string", length=64) 
+     */
+    
+    
+    private $street;  
+    /**
+     * @var string
+     * @ORM\Column(type="string", length=64) 
+     */
+    
+    
+    private $city;  
+    /**
+     * @var string
+     * @ORM\Column(type="string", length=64) 
+     */
+    
+    
+    private $phone;  
+    
+    
+    function __construct($car, $firstName, $lastName, $country, $street, $city, $phone) {
+  
+        $this->car = $car;
+        $this->firstName = $firstName;
+        $this->lastName = $lastName;
+        $this->country = $country;
+        $this->street = $street;
+        $this->city = $city;
+        $this->phone = $phone;
+    }
+
+}
+
