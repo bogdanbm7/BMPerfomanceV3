@@ -1,0 +1,96 @@
+<?php
+
+namespace App\Entity;
+
+use Doctrine\ORM\Mapping\Id;
+use Doctrine\ORM\Mapping\GeneratedValue;
+use Doctrine\ORM\Mapping\Column;
+use Doctrine\ORM\Mapping\Entity;
+
+
+    /**
+     * @Entity(repositoryClass="App\Repository\HomeRepository")
+     */
+
+     class Home {
+    /**
+     * @var int 
+     * @Id
+     * @GeneratedValue
+     * @Column(type="integer")
+     */
+    private $id;
+
+    
+    /**
+     * @var string
+     * @Column(type="string", length=200) 
+     */
+    private $title;
+    
+    
+     /**
+     * 
+     * @Column(type="text", nullable=true) 
+     */
+    private $content;
+    
+    
+    /**
+     * 
+     * @var bool
+     * @Column(type="boolean")
+     */
+    private $done;
+    
+    
+    
+    
+    public function getId() 
+    {
+        return $this->id;
+    }
+
+    
+    public function __construct($title) 
+    {
+        $this->title = $title;
+    
+        $this->done = false;
+    }
+    
+    
+    public function getTitle() 
+    {
+        return $this->title;
+    }
+    
+    
+    public function setTitle(string $title): self
+    {
+        $this->title = $title;
+        
+        return $this;
+    }
+    
+    
+    public function getContent(): string
+    {
+        return $this->content;
+    }
+    
+    
+    public function setContent(string $content): self
+    {
+        $this->content = $content;
+        
+        return $this;
+    }
+    
+    
+    public function isDone() 
+    {
+        return $this->done;
+    }
+
+}
