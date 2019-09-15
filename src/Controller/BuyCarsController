@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\Response;
+
+
+class BuyCarsController extends AbstractController 
+{
+    /**
+     * @Route("/buycars", methods={"GET"}, name="buycars")
+     * @return Response
+     */  
+    
+    public function buycars()
+    {
+        return new Response ( 
+            $this->renderView(
+                    'buycars.html.twig')
+         );
+    }
+}
