@@ -1,0 +1,61 @@
+<?php
+
+namespace App\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+
+     /**
+      * @ORM\Entity(repositoryClass="App\Repository\ContactRepository")
+      */
+
+     class Contact
+     {
+     /**
+     * @var int 
+     * @ORM\Id
+     * @ORM\GeneratedValue
+     * @ORM\Column(type="integer")
+     */
+     
+     
+    private $id;
+    /**
+     * @var string
+     * @ORM\Column(type="string", length=64) 
+     */
+
+    
+    private $name;
+    /**
+     * @var string
+     * @ORM\Column(type="string", length=64) 
+     */
+
+    
+    private $tel;    
+
+
+    private $email;  
+    /**
+     * @var string
+     * @ORM\Column(type="string", length=64) 
+     */
+ 
+    
+    private $message;  
+    /**
+     * @var string
+     * @ORM\Column(type="string", length=64) 
+     */
+    
+    
+    function __construct($name, $tel, $email, $message) 
+    {
+        $this->name = $name;
+        $this->tel = $tel;
+        $this->email = $email;
+        $this->message = $message;
+    }
+
+}
