@@ -1,0 +1,46 @@
+<?php
+
+namespace App\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use App\Controller\Checkout;
+use App\Entity\Checkout;
+
+
+class CheckoutController extends AbstractController 
+    {
+    /**
+     * @Route("/checkout", methods={"GET"}, name="checkout")
+     * @param Request $post
+     * @return Response
+     */
+    
+    public function Checkout(Request $post)
+    {        
+        $car = $post->request->get('car');
+        $firstname = $post->request->get('fname');
+        $lastname = $post->request->get('lname');
+        $country = $post->request->get('country');
+        $street = $post->request->get('street');
+        $city = $post->request->get('city');
+        $phone = $post->request->get('phone');
+        
+        $repo = $this->getDoctrine()->getRepository(Checkout::class);
+        
+        $checkout = new Checkout($car, $firstname, $lastname, $country, $street, $city, $phone);
+        
+        $manager = $this->getDoctrine()->getManager();
+        
+        $manager->persist($checkout);
+        $manager->flush();
+                
+            return $this->render(
+                    'checkout.html.twig',
+                    ['checkout' => $checkout]
+             );
+    }
+}
+    
