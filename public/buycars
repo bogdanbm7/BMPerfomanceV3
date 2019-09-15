@@ -1,0 +1,335 @@
+<!DOCTYPE HTML>
+
+<head>
+
+<!-- Basic Info
+================================================== -->
+<title>BM Perfomance | Buy Cars</title>
+<meta charset="utf-8">
+
+
+
+<!-- Mobile
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<!-- Google Fonts
+================================================== -->
+<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+
+
+
+<!-- Css Files
+================================================== -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+
+
+
+<!-- X-Icon / Icon / Favicon /  Ms-Icon
+================================================== -->
+<link href='img/favicon.ico' rel='icon' type='image/x-icon'/>
+
+<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+
+<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+
+
+<!-- Contact Form
+================================================== -->
+<link href="contact-form/css/style.css" media="screen" rel="stylesheet" type="text/css">
+
+
+
+<!-- Javascript Files
+================================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="js/jquery.tools.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/slides/slides.min.jquery.js"></script>
+<script src="js/cycle-slider/cycle.js"></script>
+<script src="js/nivo-slider/jquery.nivo.slider.js"></script>
+<script src="js/tabify/jquery.tabify.js"></script>
+<script src="js/prettyPhoto/jquery.prettyPhoto.js"></script>
+<script src="js/twitter/jquery.tweet.js"></script>
+<script src="js/scrolltop/scrolltopcontrol.js"></script>
+<script src="js/portfolio/filterable.js"></script>
+<script src="js/modernizr/modernizr-2.0.3.js"></script>
+<script src="js/easing/jquery.easing.1.3.js"></script>
+<script src="js/kwicks/jquery.kwicks-1.5.1.pack.js"></script>
+<script src="js/swfobject/swfobject.js"></script>
+
+
+<!-- Javascript functions
+================================================== -->
+<script>
+$(function () {
+    $("#prod_nav ul").tabs("#panes > div", {
+        effect: 'fade',
+        fadeOutSpeed: 400
+    });
+});
+</script>
+
+
+<script>
+$(document).ready(function () {
+    $(".pane-list li").click(function () {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
+});
+</script>
+
+</head>
+
+
+
+
+
+<body>
+  <!-- MENU
+  ================================================== -->
+
+  <ol id="menu">
+    <li><a href="home.html">Home</a>
+    </li>
+
+    <li><a href="">Media</a>
+      <!-- sub menu -->
+      <ol>
+        <li><a href="portfolio.html">Photos</a></li>
+        <li><a href="video.html">Video</a></li>
+      </ol>
+    </li>
+    <!-- end sub menu -->
+
+    <li><a href="">Cars</a>
+      <!-- sub menu -->
+      <ol>
+        <li><a href="buycars.html">Buy Cars</a></li>
+      </ol>
+    </li>
+    <!-- end sub menu -->
+
+    <li><a href="contact.html">Contact</a></li>
+
+    <li><a href="">User</a>
+      <!-- sub menu -->
+      <ol>
+        <li><a href="signup.html">Signup</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ol>
+    </li>
+    <!-- end sub menu -->
+  </ol>
+  <!-- END MENU -->
+
+
+  
+  <!-- BM Perfomance -  LOGO
+  ================================================== -->
+<div id="container">
+  <div id="site_title"><a href="home.html"><img src="img/logo.png" alt=""></a></div>
+  <div style="clear:both"></div>
+
+
+  
+  <!-- Highlight Box -  Cars
+  ================================================== -->
+  <div class="box_highlight" style="margin-top:40px">
+    <h1 style="text-align:center"> BM Perfomance - Cars </h1>
+  </div>
+
+
+  
+  <!-- Tab panes
+  ================================================== -->
+  <div id="prod_wrapper">
+    <div id="panes">
+         
+      <div> <img src="img/demo/1.jpg" alt="">
+        <h2>Nissan Xmotion</h2>
+        <p>  This dramatic three-row SUV concept shows off Nissan’s design direction for 2020.  <br>
+             The stunning exterior features a powerful, dynamic, with understated sculptural beauty.  <br>
+             The Nissan Xmotion’s exterior is designed with a unique look distinct. <br>
+             The Xmotion’s interior is features with special wooden elements.  <br>
+        </p> <br>   
+        
+        <p style="text-align:right; margin-right: 16px">
+             <a href="portfolio.html" class="button">Photos</a> 
+             <a href="checkout.html" class="button">Buy Now</a>
+        </p>
+      </div>
+         
+         
+      <div> <img src="img/demo/2.jpg" alt="">
+        <h2>MG Xmotion</h2>
+        <p>  MG X-motion concept car premiered at the Beijing Auto Show.  <br>
+             The X-motion follows the MG brand design philosophy of Emotional Dynamism.  <br>
+             MG Xmotion inspiring performance thanks to its sporting genes. <br>
+             Interior is special and innovative, the car will also have a advanced technology.  <br>
+        </p> <br>   
+        
+        <p style="text-align:right; margin-right: 16px">
+             <a href="portfolio.html" class="button">Photos</a> 
+             <a href="checkout.html" class="button">Buy Now</a>
+        </p>
+      </div>
+         
+         
+      <div> <img src="img/demo/3.jpg" alt="">
+        <h2>Toyota Rav4 Hybrid </h2>
+        <p>  Express your sense of style with a Rav4 Hybrid that have a perfomance technology.   <br>
+             Rav4 Hybrid takes a advantage of it`s Toyota New Global special Architecture.  <br>
+             Modern LED taillights, an integrated rear spoiler and dual chrome exhaust. <br>
+             In interior you can find the available multi-information display about the safety.  <br>
+        </p> <br>   
+        
+        <p style="text-align:right; margin-right: 16px">
+             <a href="portfolio.html" class="button">Photos</a> 
+             <a href="checkout.html" class="button">Buy Now</a> 
+        </p>
+      </div>
+         
+         
+      <div> <img src="img/demo/4.jpg" alt="">
+        <h2>Bmw I8</h2>
+        <p>  The I8 highlights just how early BMW was to the plug-in hybrid performance-car market.  <br>
+             BMW I8 has the combination of a small petrol engine and electric motor.  <br>
+             The i8’s 228bhp 1.5-litre three-cylinder turbocharged petrol engine.  <br>
+             Chose BMW I8 If you’re looking for a car that combines performance and technology.   <br>
+        </p> <br>   
+        
+        <p style="text-align:right; margin-right: 16px">
+             <a href="portfolio.html" class="button">Photos</a> 
+             <a href="checkout.html" class="button">Buy Now</a> 
+        </p>
+      </div>
+        
+         
+      <div> <img src="img/demo/5.jpg" alt="">
+        <h2>Toyota Supra</h2>
+        <p>  The 1996 Toyota Supra had a 3.0-liter, six-cylinder engine with 220 horsepower.  <br>
+             The turbo came with a twin turbo-charged engine with a 320-horsepower engine..  <br>
+             Toyota Supra is one of the most customizable cars around the world.  <br>
+             The interior of this car is unique. Chose this car if you want a special sensation.  <br>
+        </p> <br>   
+        
+        <p style="text-align:right; margin-right: 16px">
+             <a href="portfolio.html" class="button">Photos</a> 
+             <a href="checkout.html" class="button">Buy Now</a> 
+        </p>
+      </div>
+         
+    </div>
+  <!-- End Tab Panes
+  ================================================== -->
+    <br clear="all">
+
+    
+
+    <!-- Cars Navigator
+    ================================================== -->
+    <div id="prod_nav">
+         
+      <ul>
+        <li><a href="#1"><img src="img/demo/1.jpg" width="160" alt=""> <strong> Nissan Xmotion </strong> $ 250.000 </a></li>
+        <li><a href="#2"><img src="img/demo/2.jpg" width="160" alt=""> <strong> MG Xmotion </strong> $ 150.000 </a></li>
+        <li><a href="#3"><img src="img/demo/3.jpg" width="160" alt=""> <strong> Toyota Rav4 Hybrid </strong> $ 45.000 </a></li>
+        <li><a href="#4"><img src="img/demo/4.jpg" width="160" alt=""> <strong> Bmw I8 </strong> $ 95.000 </a></li>
+        <li><a href="#5"><img src="img/demo/5.jpg" width="160" alt=""> <strong> Toyota Supra </strong> $ 30.000 s</a></li>
+      </ul>
+         
+    </div>
+    <!-- End  Navigator
+    ================================================== -->
+  </div>
+  <div style="clear:both; height: 40px"></div>
+  <!-- End prod wrapper
+  ================================================== -->
+  </div>
+
+
+  
+
+  
+<!-- Footer
+================================================== -->
+<div id="footer">
+
+<br>
+
+  <!-- First Column -->
+<div class="one-fourth">
+     
+     <h3> <strong> Links </strong> </h3>
+  <ul class="footer_links">
+       <li><a href="home.html"> <b> Home </b> </a></li>
+       <li><a href="portfolio.html"> <b> Photos </b> </a></li>
+       <li><a href="video.html"> <b>  Video </b> </a></li>
+       <li><a href="buycars.html"> <b> Buy Cars </b> </a></li>
+  </ul>
+     
+<br>
+
+</div>
+
+  <!-- Second Column -->
+<div class="one-fourth">
+     
+     <h3> <strong> User </strong> </h3> 
+  <ul class="footer_links">
+       <li><a href="contact.html"> <b> Contact </b> </a></li>
+       <li><a href="signup.html"> <b> Signup </b> </a></li>
+       <li><a href="login.html"> <b> Login </b> </a></li>
+  </ul>
+     
+<br>
+
+</div>
+
+  <!-- Third Column -->
+<div class="one-fourth-last">
+     
+      <h3> <strong> Information </strong> </h3> 
+<p> 
+      <b>  
+           When I was a kid I had a passion for cars. <br>
+           That's why I decided to make a website about performance cars....  
+
+ <br>
+
+ <br>     Theme made by: <a href="contact.html"> Bogdan Marian </a> 
+      </b>
+     
+</p>
+</div>
+
+<div style="clear:both"></div>
+
+</div>     <!-- END Footer
+================================================== -->
+
+</body>
+
+</html>
+
